@@ -1,0 +1,272 @@
+body {
+    font-family: 'Tajawal', 'Cairo', sans-serif;
+    line-height: 1.6;
+    color: #671288;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+    color: #64095f;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: #450754;
+}
+
+
+/* تخصيص الألوان */
+
+.bg-primary {
+    background-color: #3d0851 !important;
+}
+
+.text-primary {
+    color: #3c0a64 !important;
+}
+
+.btn-primary {
+    background-color: #530c2f;
+    border-color: #811374;
+}
+
+.btn-outline-primary {
+    color: #33115c;
+    border-color: #561391;
+}
+
+.btn-primary:hover {
+    background-color: #891ea1;
+    color: white;
+}
+
+
+/* تخصيص Navbar */
+
+.navbar {
+    background-color: #943271;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+
+/* تخصيص البطاقات */
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+/* تخصيص Carousel */
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+
+/* تخصيص الأزرار */
+
+.btn {
+    border-radius: 8px;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+}
+
+
+/* تخصيص الفوتر */
+
+footer {
+    margin-top: auto;
+}
+
+footer a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #5b1664 !important;
+}
+
+.social-links i {
+    font-size: 1.5rem;
+}
+
+
+/* تخصيص الفلاتر */
+
+.category-filter {
+    margin-bottom: 0.5rem;
+}
+
+
+/* تخصيص النماذج */
+
+.form-control {
+    border-radius: 8px;
+    padding: 0.75rem;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+
+/* تأثيرات للعناصر التفاعلية */
+
+.event-card {
+    cursor: pointer;
+}
+
+
+/* تصميم متجاوب إضافي */
+
+@media (max-width: 768px) {
+    .hero-section .display-4 {
+        font-size: 2rem;
+    }
+    .carousel-item img {
+        height: 300px;
+    }
+}
+
+.btn-social {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* تخصيص البطاقات في صفحة عنا */
+
+.team-card .card-img-top {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+/* تخصيص Accordion في صفحة عنا */
+
+.accordion-button:not(.collapsed) {
+    background-color: #9228af;
+    color: white;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0, 0, 0, .125);
+}
+
+
+/* تخصيص الخريطة في صفحة اتصل بنا */
+
+.ratio iframe {
+    border-radius: 8px;
+}
+
+
+/* تخصيص نموذج الاتصال */
+
+.form-label {
+    font-weight: 600;
+}
+
+
+/* تخصيص Pagination في صفحة الفعاليات */
+
+.pagination .page-link {
+    color: #49078f;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #410e36;
+    border-color: #8b1c91;
+}
+
+
+/* تخصيص الفلاتر في صفحة الفعاليات */
+
+#categoryFilter,
+#dateFilter {
+    cursor: pointer;
+}
+
+
+/* تأثيرات للبطاقات في صفحة الفريق */
+
+.team-card {
+    transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* تخصيص الأكورديون في صفحة السياسات */
+
+.accordion-button {
+    font-weight: 600;
+}
+
+
+/* تخصيص العناوين */
+
+h1,
+h2 {
+    color: #3b0f6b;
+}
+
+
+/* تخصيص الأزرار في صفحة التفاصيل */
+
+#addToCalendar,
+#shareEvent {
+    padding: 0.5rem 1.5rem;
+}
+
+
+/* تخصيص القوائم */
+
+ul,
+ol {
+    padding-right: 1.5rem;
+}
+
+
+/* تخصيص الروابط في الفوتر */
+
+footer a {
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #a31195ff !important;
+}
